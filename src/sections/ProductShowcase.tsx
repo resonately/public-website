@@ -27,7 +27,7 @@ export const ProductShowcase = () => {
            Free up your schedule for what truly matters
           </h2>
           <p className="section-des mt-5">
-          Personalized chart notes in seconds, <br></br>as if you'd written them yourself
+          Personalized chart notes in seconds, <br></br>as if you&apos;d written them yourself
           </p>
         </div>
 

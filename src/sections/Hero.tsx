@@ -34,7 +34,7 @@ export const Hero = () => {
             Focus on your patients, we take care of the rest.
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-            Power your clinic with Resonately's AI-Powered Audiology Assistant. Save time charting, <br></br>pre-charting, or writing follow-up reports.
+            Power your clinic with Resonately&apos;s AI-Powered Audiology Assistant. Save time charting, <br></br>pre-charting, or writing follow-up reports.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
               <button className="btn btn-primary">Get started for free</button>
