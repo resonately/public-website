@@ -11,46 +11,45 @@ const pricingTiers = [
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
+      "5 appointments per month",
+      "Calendar sync",
       "Integrations",
       "Basic support",
     ],
   },
   {
     title: "Pro",
-    monthlyPrice: 9,
+    monthlyPrice: 189,
     buttonText: "Sign up now",
     popular: true,
     inverse: true,
     features: [
-      "Up to 50 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
+      "Unlimited appointments",
+      "Collaborate with other providers",
+      "Custom reports",
+      "Advanced analytics",
+      "Calendar sync",
       "Integrations",
       "Priority support",
-      "Advanced support",
-      "Export support",
     ],
   },
   {
-    title: "Business",
-    monthlyPrice: 19,
+    title: "Enterprise",
+    monthlyPrice: "9,995",
     buttonText: "Sign up now",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
-      "Dedicated account manager",
-      "Custom fields",
+      "Unlimited appointments",
+      "Collaborate with other providers",
+      "Administrator dashboard",
+       "API access", 
+       "Export capabilities",     
+           "Custom reports",
       "Advanced analytics",
-      "Export capabilities",
-      "API access",
-      "Advanced security features",
+      "Calendar sync",
+      "Integrations",
+      "Dedicated support",
     ],
   },
 ];
@@ -62,7 +61,7 @@ export const Pricing = () => {
         <div className="section-heading">
           <h2 className="section-title">Pricing</h2>
           <p className="section-des mt-5">
-            Free forever. Upgrade for unlimited tasks, better security, and exclusive features.
+            Free forever. Upgrade for unlimited <br></br>appointments and exclusive features.
           </p>
         </div>
 

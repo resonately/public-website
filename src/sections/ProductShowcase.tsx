@@ -1,7 +1,7 @@
 "use client";
 import productImage from "@/assets/product-image.png";
-import pyramidImage from "@/assets/pyramid.png";
-import tubeImage from "@/assets/tube.png";
+import pyramidImage from "@/assets/tube1.png";
+import tubeImage from "@/assets/tube1.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -24,17 +24,16 @@ export const ProductShowcase = () => {
           </div>
 
           <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-5">
-            A more effective way to track progress
+           Free up your schedule for what truly matters
           </h2>
           <p className="section-des mt-5">
-            Effortlessly turn your ideas into a fully functional, responsive, SaaS website in just minutes
-            with this template.
+          Personalized chart notes in seconds, <br></br>as if you'd written them yourself
           </p>
         </div>
 
         <div className="relative">
           <Image src={productImage} alt="Product image" className="mt-10" />
-          <motion.img
+          {/* <motion.img
             src={pyramidImage.src}
             alt="Pyramid image"
             height={262}
@@ -43,8 +42,8 @@ export const ProductShowcase = () => {
             style={{
               translateY: translateY,
             }}
-          />
-          <motion.img
+          /> */}
+          {/* <motion.img
             src={tubeImage.src}
             alt="Tube image"
             height={248}
@@ -53,7 +52,7 @@ export const ProductShowcase = () => {
             style={{
               translateY: translateY,
             }}
-          />
+          /> */}
         </div>
       </div>
     </section>

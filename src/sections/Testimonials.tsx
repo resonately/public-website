@@ -1,6 +1,6 @@
 "use client";
-import avatar1 from "@/assets/avatar-1.png";
-import avatar2 from "@/assets/avatar-2.png";
+import avatar1 from "@/assets/nancy.png";
+import avatar2 from "@/assets/jen.png";
 import avatar3 from "@/assets/avatar-3.png";
 import avatar4 from "@/assets/avatar-4.png";
 import avatar5 from "@/assets/avatar-5.png";
@@ -15,58 +15,58 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "I've gained back at least 1 hour every day by not having to type notes at the end of my shift.",
     imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Practice Owner in MA",
+    username: "@TBD",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "We're in love with this tool and cannot wait to see what they can create next!!!! ",
     imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Practice Owner in MA",
+    username: "@TBD",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "TBD",
     imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "TBD",
     imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "TBD",
     imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "TBD",
     imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "TBD",
     imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "TBD",
     imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "TBD",
     imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
+    name: "Practice Owner in XX",
+    username: "@TBD",
   },
 ];
 
@@ -124,7 +124,7 @@ const TestimonialsColumn = (props: {
 
 export const Testimonials = () => {
   return (
-    <section className="bg-white">
+    <section className="py-24 bg-white">
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
