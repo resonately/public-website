@@ -19,7 +19,7 @@ const pricingTiers = [
   },
   {
     title: "Pro",
-    monthlyPrice: 189,
+    monthlyPrice: 99,
     buttonText: "Sign up now",
     popular: true,
     inverse: true,
@@ -35,7 +35,7 @@ const pricingTiers = [
   },
   {
     title: "Enterprise",
-    monthlyPrice: "9,995",
+    monthlyPrice: "4,995",
     buttonText: "Sign up now",
     popular: false,
     inverse: false,
