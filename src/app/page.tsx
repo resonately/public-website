@@ -7,7 +7,7 @@ import { Pricing } from "@/sections/Pricing";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import { Testimonials } from "@/sections/Testimonials";
 
-export default function Page() {
+export default function Home() {
   return (
     <div>
       <Header/>
